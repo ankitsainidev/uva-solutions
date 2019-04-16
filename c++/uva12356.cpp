@@ -19,7 +19,7 @@ int main()
     scanf("%d %d", &s, &b);
     while (s != 0 || b != 0)
     {
-        pair<int, int> l[s];
+        pair<int, int> l[s];            // for index i will be store which indexes are buddies -1 for no buddy.
         l[0] = make_pair(-1, 1);
         l[s - 1] = make_pair(s - 2, -1);
         for (int i = 1; i < s - 1; i++)
