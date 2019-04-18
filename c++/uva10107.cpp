@@ -3,6 +3,7 @@
 #include <cstdio>
 #include <cmath>
 #include <algorithm>
+#include <ctype.h>
 #include <vector>
 #include <string>
 #include <string.h>
